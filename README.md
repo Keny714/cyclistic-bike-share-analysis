@@ -37,9 +37,11 @@ I am a junior data analyst working on the marketing analyst team at Cyclistic. M
 
 ## 2. Prepare
 **Data Source:** 
-I used Cyclistic’s historical trip data from **January 2025 to December 2025**. The data has been made available by Motivate International Inc. under a public license. 
+I used Cyclistic’s historical trip data to analyze and identify trends from **January 2025 to December 2025**, which can be downloaded from [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement).
 
-Personal identifiable information (PII) has been removed for privacy. The original dataset consists of 12 separate CSV files (one for each month) containing over **5.5 million rows** of data. Key columns include ride ID, bike type, start/end times, and station names.
+This is public data that can be used to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit the use of riders’ personally identifiable information (PII). This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes. 
+
+The original dataset consists of 12 separate CSV files (one for each month) containing over **5.5 million rows** of data. Key columns include ride ID, bike type, start/end times, and station names.
 
 ---
 
@@ -105,3 +107,14 @@ Based on the data insights, I recommend the following three marketing strategies
 1.  **Launch a "Weekend Warrior" Pass:** Since casual riders overwhelmingly prefer weekends, the current 7-day Annual Pass is not appealing to them. Cyclistic should introduce a discounted Annual Pass that only grants unlimited rides on Saturdays and Sundays.
 2.  **Highlight the "Leisure Tax" in Ads:** Casual riders ride for nearly twice as long as members, meaning they are paying high per-minute fees. Digital ads should target this financial pain point: *"Did you know your weekend rides cost you $X last month? An Annual Pass pays for itself in just 3 weekends."*
 3.  **Geo-Target Coastal Advertising:** Since casual riders strictly cluster around Navy Pier and Lake Shore Drive, Cyclistic should concentrate physical advertising (billboards and station wraps) exclusively at these Top 10 coastal stations during the summer months, rather than spending money inland.
+
+---
+
+## 7. Limitations & Next Steps
+
+**Data Limitations (Privacy Constraints):**
+Due to strict data-privacy regulations, the dataset lacks unique User IDs. Consequently, we cannot determine if the casual rides were taken by a large volume of unique tourists or a smaller group of locals riding repeatedly. This limits our ability to track individual user conversion rates or measure the exact size of our addressable casual market. 
+
+**Next Steps (Future Analysis):**
+*   **A/B Testing:** Before deploying a city-wide advertising campaign or launching the new Weekend Pass, I recommend running a controlled A/B test of our marketing copy at a few select high-traffic coastal stations (e.g., Navy Pier) to measure actual conversion rates and mitigate financial risk.
+*   **Pricing Data Integration:** In the future, I recommend joining this trip dataset with Cyclistic's financial transaction data. This will allow us to calculate the exact Customer Lifetime Value (CLV) of our members and determine the precise ROI of our proposed marketing campaigns.
