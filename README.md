@@ -67,16 +67,27 @@ The cleaned dataset was analyzed using complex SQL aggregations and exported to 
 ### Bike Preference
 While both groups heavily prefer classic bikes, **Electric bikes** make up nearly half of all rides (1.7 million). 
 
+<img width="1055" height="650" alt="image" src="https://github.com/user-attachments/assets/08e947ec-8e56-4142-8884-c0c23ef96bf8" />
+
+
 ### Seasonality (Months)
 When observing monthly trips, both casual riders and members exhibit comparable behavior: ridership drops in the winter and spikes in the summer. However, **Casual ridership explodes in July and August**, nearly matching or overtaking member volume during peak tourism season.
+
+<img width="1302" height="742" alt="image" src="https://github.com/user-attachments/assets/a91fa5a4-b367-4589-b6ec-c0499fac7e82" />
+
 
 ### Days of the Week
 When days of the week are compared, it is discovered that **Casual riders make significantly more journeys on the weekends** (Saturday and Sunday). Conversely, **Annual Members show a distinct decline over the weekend**, preferring to ride Monday through Friday.
 
+<img width="1431" height="755" alt="image" src="https://github.com/user-attachments/assets/13c3c6b4-242c-40ef-af00-37fc40a0409e" />
+
+
 ### Hours of the Day (The Commuter Trend)
 Analyzing the exact hour of the day reveals the starkest contrast in behavior:
 
-![Hourly Ridership Volume: Members vs. Casuals](hourly_ridership.png)
+
+<img width="1236" height="762" alt="Screenshot 2026-06-27 153714" src="https://github.com/user-attachments/assets/8e00fe57-7986-4121-a36b-347613180094" />
+
 
 *   **Annual Members** show two massive peaks throughout the day: exactly at **8:00 AM** and **5:00 PM**. 
 *   **Casual Riders** do not have a morning peak. Their ridership increases consistently throughout the day, peaking at 5:00 PM before tapering off.
@@ -86,9 +97,11 @@ Analyzing the exact hour of the day reveals the starkest contrast in behavior:
 Casual riders travel for almost **twice as long** as Annual Members. 
 *   Casual Average Ride: **22.46 minutes**
 *   Member Average Ride: **12.42 minutes**
+<img width="1432" height="495" alt="image" src="https://github.com/user-attachments/assets/c705bc7d-5e4a-4fdc-9441-f57db29616cd" />
 
 ### Popular Routes & Stations
 The Top 10 most popular routes for Casual riders are overwhelmingly located along the Chicago coastline, near museums, parks, and Navy Pier. Notably, the #1 most popular route in the city is a round-trip starting and ending at *DuSable Lake Shore Dr & Monroe St*. Members, on the other hand, start and end their trips near inland transit hubs, universities, and commercial districts (e.g., *Clinton St & Washington Blvd*).
+<img width="1410" height="762" alt="image" src="https://github.com/user-attachments/assets/11ee7b5d-0b7c-4318-8fb0-2d5ff821e2b2" /><img width="1420" height="757" alt="image" src="https://github.com/user-attachments/assets/455ac36c-d5eb-4ee9-a144-290b6075da22" />
 
 ---
 
