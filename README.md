@@ -75,6 +75,9 @@ When days of the week are compared, it is discovered that **Casual riders make s
 
 ### Hours of the Day (The Commuter Trend)
 Analyzing the exact hour of the day reveals the starkest contrast in behavior:
+
+![Hourly Ridership Volume: Members vs. Casuals](hourly_ridership.png)
+
 *   **Annual Members** show two massive peaks throughout the day: exactly at **8:00 AM** and **5:00 PM**. 
 *   **Casual Riders** do not have a morning peak. Their ridership increases consistently throughout the day, peaking at 5:00 PM before tapering off.
 *   *Conclusion:* Members use the bikes for traditional 9-to-5 commuting, while Casuals use them for afternoon leisure.
