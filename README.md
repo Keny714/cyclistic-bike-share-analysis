@@ -118,11 +118,13 @@ The Top 10 most popular routes for Casual riders are overwhelmingly located alon
 ---
 
 ## 6. Act (Recommendations)
-Based on the data insights, I recommend the following three marketing strategies to convert Casual Riders into Annual Members:
+After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
 
-1.  **Launch a "Weekend Warrior" Pass:** Since casual riders overwhelmingly prefer weekends, the current 7-day Annual Pass is not appealing to them. Cyclistic should introduce a discounted Annual Pass that only grants unlimited rides on Saturdays and Sundays.
+**Recommendations:**
+1.  **Launch a "Weekend Warrior" or Seasonal Pass:** Since casual riders overwhelmingly prefer weekends and summer months, the current 7-day Annual Pass is not appealing to them. Cyclistic should introduce a discounted membership that only grants unlimited rides on Saturdays and Sundays, or a "Summer-Only" pass.
 2.  **Highlight the "Leisure Tax" in Ads:** Casual riders ride for nearly twice as long as members, meaning they are paying high per-minute fees. Digital ads should target this financial pain point: *"Did you know your weekend rides cost you $X last month? An Annual Pass pays for itself in just 3 weekends."*
-3.  **Geo-Target Coastal Advertising:** Since casual riders strictly cluster around Navy Pier and Lake Shore Drive, Cyclistic should concentrate physical advertising (billboards and station wraps) exclusively at these Top 10 coastal stations during the summer months, rather than spending money inland.
+3.  **Geo-Target Coastal Advertising:** Since casual riders strictly cluster around Navy Pier and Lake Shore Drive, Cyclistic should concentrate marketing campaigns exclusively at these Top 10 coastal and tourist/recreational locations during the spring and summer months.
+4.  **Offer Discounts for Longer Rides:** Since casual riders use their bikes for longer durations than members, offering targeted discounts for longer rides on annual memberships may incentivize casual riders to convert, while also enticing existing members to ride for longer periods of time.
 
 ---
 
@@ -134,3 +136,4 @@ Due to strict data-privacy regulations, the dataset lacks unique User IDs. Conse
 **Next Steps (Future Analysis):**
 *   **A/B Testing:** Before deploying a city-wide advertising campaign or launching the new Weekend Pass, I recommend running a controlled A/B test of our marketing copy at a few select high-traffic coastal stations (e.g., Navy Pier) to measure actual conversion rates and mitigate financial risk.
 *   **Pricing Data Integration:** In the future, I recommend joining this trip dataset with Cyclistic's financial transaction data. This will allow us to calculate the exact Customer Lifetime Value (CLV) of our members and determine the precise ROI of our proposed marketing campaigns.
+
